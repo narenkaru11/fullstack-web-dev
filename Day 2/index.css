@@ -1,0 +1,30 @@
+.container {
+  display: grid;
+  grid-template-columns: 120px auto auto 200px;
+  background-color: dodgerblue;
+  padding: 10px;
+}
+.container > div {
+  background-color: #f1f1f1;
+  /* border: 1px solid black;  */
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.container1 {
+  background-color: #f3efef;
+  border: 5px solid red;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.containercatswo {
+  background-color: #f3efef;
+
+  /* border: 5px solid red;   */
+  padding: 10px;
+  /* font-size: 20px; */
+  text-align: center;
+}
