@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Javascript</title>
+  </head>
+  <body>
+    <!-- <button onclick="console.log(30)">Click me</button>
+    <script>
+        console.log(40);
+    </script> -->
+
+    <h1>This is a heading</h1>
+
+    <h2 id="myHeading">Heading 2 sample</h2>
+
+    <script src="function.js"></script>
+    <script>
+      let heading = document.getElementsByTagName("h1");
+      console.log(heading[0]);
+      heading[0].innerHTML = "This is MANIPULATED heading";
+
+      let head2 = document.getElementById("myHeading");
+      console.log(head2);
+      head2.innerHTML = "Manipulated heading 2";
+    </script>
+  </body>
+</html>
